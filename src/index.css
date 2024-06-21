@@ -27,6 +27,9 @@
   color: white;
   padding: 0.8rem;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 #contact{
@@ -71,4 +74,60 @@ padding: 5rem;
   background-color: white;
 padding: 1rem;
 border-radius: 40px;
+}
+
+#home{
+  height: 100%;
+   background-color: rgb(66, 240, 182);
+  padding: 1rem 12rem 3rem 12rem;
+   line-height: 1.5;
+}
+#home h1{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+textarea,pre{
+  width: 90%;
+  height: 6rem;
+  background-color: rgb(253, 246, 246);
+  border: none;
+  box-shadow: 2px 2px 8px black;
+  font-size: 1.5rem;
+}
+
+button{
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  box-shadow: 2px 3px 5px black;
+  justify-content: center;
+}
+#upper{
+  background-color: rgb(67, 67, 243);
+}
+#lower{
+  background-color: rgb(0, 183, 255);
+}
+#clear{
+  background-color: red;
+}
+#copy{
+  background-color: rgb(50, 187, 12);
+}
+#space{
+  background-color: grey;
+}
+#summary{
+  margin: 1rem;
+}
+#summary p{
+  font-size: 1.3rem;
+  font-style: italic;
+}
+#summary p span{
+  font-weight: 600;
 }
