@@ -3,12 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+#root{
+  background-color: rgb(159, 249, 240);
+}
 #navbar{
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   box-shadow: 1px 1px 6px black;
-
+  background-color: white;
 }
 #logo{
   display: flex;
@@ -30,13 +33,13 @@
   position: fixed;
   width: 100%;
   bottom: 0;
+  box-shadow: 1px 1px 10px white;
 }
 
 #contact{
   width: 100vw;
   height: 83.3vh;
- background-color: aquamarine;
- justify-content: center;
+  justify-content: center;
  display: flex;
  flex-direction: column;
  align-items: center;
@@ -55,8 +58,7 @@
 #about{
   width: 100vw;
   height: 83.3vh;
- background-color: aquamarine;
- text-align: center;
+  text-align: center;
 padding: 5rem;
  line-height: 1.5;
 }
@@ -78,9 +80,12 @@ border-radius: 40px;
 
 #home{
   height: 100%;
-   background-color: rgb(66, 240, 182);
-  padding: 1rem 12rem 3rem 12rem;
+  padding: 1rem ;
    line-height: 1.5;
+}
+#inner-home{
+  width: 74vw;
+  margin: auto;
 }
 #home h1{
   text-align: center;
@@ -94,6 +99,7 @@ textarea,pre{
   border: none;
   box-shadow: 2px 2px 8px black;
   font-size: 1.5rem;
+  padding: 0.5rem;
 }
 
 button{
@@ -123,6 +129,11 @@ button{
 }
 #summary{
   margin: 1rem;
+  text-align: center;
+}
+#summary h2{
+  font-size: 2rem;
+  color: rgb(2, 72, 24);
 }
 #summary p{
   font-size: 1.3rem;

@@ -28,6 +28,8 @@ function Home() {
   return (
     <div id="home">
       <h1>TextUtis - Word Counter, Character Counter, Remove Extra Space</h1>
+<div id="inner-home">
+
 
       <div>
         <h3>Enter Your text here:</h3>
@@ -60,6 +62,9 @@ function Home() {
           id="clear"
           onClick={() => {
             setText("");
+            setChar(0);
+            setWord(0);
+            setTime(0);
           }}
         >
           Clear Text
@@ -78,6 +83,7 @@ function Home() {
       </div>
      <h2>Preview Text: </h2>
       <pre>{text}</pre>
+    </div>
     </div>
   );
 }

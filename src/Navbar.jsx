@@ -10,10 +10,6 @@ function Navbar() {
         <Link to='/about'>About Us</Link>
         <Link to='/contact'>Contact</Link>
         </div>
-        <div id="mode">
-            <button></button>
-            <p>Switch Mode</p>
-            </div> 
     </div>
   )
 }
